@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+ 
+  <header class="header">
+    <div class="overlay">
+      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+    
+     
+      <a class="navbar-brand" href="#"><img src="images/logo.png"> <span style="font-size:1rem;">Weather</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">work</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        
+        </ul>
+      </div>
+     
+      
+    </nav>
+    
+   
+    </div>
+  </div>
+  </div>
+
+  <section class="about bg-light">
+  
+    <div class="container">
+      <div class="search m-auto w-50 ">
+        <input type="text" id="search-bar" class="w-100 mb-5 searchbar" placeholder="Search ..." style="font-family:Arial, FontAwesome">
+      </div>
+      <div class="row">
+        
+        <div class="col-4">
+          <div id="today" class="forest today">
+          <div class="forecast-header">
+            <h6 id="day" class="day"></h6>
+            <h6 id="date"class="date"></h6>
+          </div>
+          <div class="forecast-content" id="current">
+            <div id="location"class="location"></div>
+            <div class="degree">
+              <div class="de">
+                <h2 id="numdegree" class="d-inline-block"></h2>
+              <h2 class="d-inline-block"><sup>o</sup>C</h2>
+            </div>
+                <div class="forecast-icon">
+                  <img id="today-icon" width="90" >
+                </div>	
+            
+            </div>
+        
+            <p id="today-description"></p>
+            <div class="details">
+              <i class="fas fa-umbrella pr-1"></i>
+              <span id="humidty"></span> <span>%</span>
+
+              <i class="fas fa-wind pl-3 pr-1"></i>
+              <span id="wind"></span> <span>km/h</span>
+
+              <i class="far fa-compass pl-3 pr-1"></i>
+              <span id="compass"></span>
+            </div>
+          </div>
+</div>
+        </div>
+        <div class="col-4">
+          <div class="forecast">
+            <div class="forecast-header">
+              <h6 class="nextDay" ></h6>
+              <h6 class="nextDate"></h6>
+            </div><!-- .forecast-header -->
+            <div class="forecast-content">
+              <div class="forecast-icon">
+                <img class="nextDay-icon" alt="" width="48">
+            
+            </div>
+            <div class="max">
+              <h2  class="max-degree d-inline-block"></h2>
+            <h2 class="d-inline-block"><sup>o</sup>C</h2>
+          </div>
+          <div class="min">
+            <p  class="min-degree d-inline-block"></p>
+          <p class="d-inline-block"><sup>o</sup>C</p>
+        </div>
+        <p class="nextDay-description"></p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+          <div class="forecast">
+            <div class="forecast-header">
+              <h6 class="nextDay"></h6>
+              <h6 class="nextDate"></h6>
+            </div> <!-- .forecast-header -->
+            <div class="forecast-content">
+              <div class="forecast-icon">
+                <img class="nextDay-icon" alt="" width="48">
+            </div>
+            <div class="max">
+              <h2  class="max-degree d-inline-block"></h2>
+            <h2 class="d-inline-block"><sup>o</sup>C</h2>
+          </div>
+          <div class="min">
+            <p  class="min-degree d-inline-block"></p>
+          <h2 class="d-inline-block"><sup>o</sup>C</h2>
+        </div>
+        <p class="nextDay-description"></p>
+            </div>
+            </div>
+        </div>
+     
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+ 
+  <div class="copyr text-center">
+    <span>© Copyright . All Rights Reserved</span>
+  
+     <span> Designed by Gehad Elsayed</span>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
+  </body>
+</html>

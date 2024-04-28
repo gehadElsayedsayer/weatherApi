@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+  body{
+    font-family:sans-serif;
+  }
+  
+  .overlay{
+    background-color: #1e202b;
+  }
+  .navbar .navbar-brand{
+    font-size:28px ;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: white;
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+  }
+  .navbar li a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #0683b7;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    margin-top: 4px;
+  }
+  .navbar li a:hover:after,
+  .navbar  li.active a:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+   
+  }
+ 
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: #0683b7;
+  }
+  
+
+.about{
+  padding:150px;
+}
+
+.about .forest .forecast-header{
+
+ display: flex;
+ justify-content: space-between;
+}
+
+.about .forest .forecast-header{
+  background-color: #1e202b;
+  color: white;
+  padding:20px;
+
+}
+.about .forest .forecast-content{
+  padding: 20px;
+  background-color:#007bff;
+  color: white;
+  height: 250px;
+}
+.about .forest .forecast-content .location{
+  font-weight: 600;
+  padding: 10px;
+  font-size: 20px;
+}
+.about .forest .forecast-content .degree{
+  display: flex;
+  justify-content: space-between;
+}
+.about .forest .forecast-content .degree .num{
+  font-weight: bold;
+  font-size: 40px;
+}
+.forecast{
+  text-align: center;
+}
+.forecast .forecast-header {
+  background-color: #1e202b;
+  color: white;
+  padding:20px;
+  display: flex;
+ justify-content: space-between;
+}
+.forecast .forecast-content {
+  padding: 10px;
+  background-color:#007bff;
+  height: 250px;
+  color: white;
+}
+
+.copyr{
+ background-color:#1e202b ;
+ color: white;
+ padding: 20px 0;
+}
+.copyr span{
+  display: block;
+}
+.copyr span a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0px;
+}
+.searchbar{
+
+ 
+  height: 40px;
+ 
+}
